@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6a7a10f3487376438299abc337bc495, type: 3}
+  m_Name: CharactersConfig
+  m_EditorClassIdentifier: 
+  animations:
+  - name: Idle
+    length: 4
+    loop: 1
+    autoFramerate: 1
+    framerate: 4
+  - name: Walk
+    length: 8
+    loop: 1
+    autoFramerate: 1
+    framerate: 8
+  - name: Attack1
+    length: 3
+    loop: 0
+    autoFramerate: 1
+    framerate: 3
+  - name: Attack2
+    length: 3
+    loop: 0
+    autoFramerate: 1
+    framerate: 3
+  - name: Attack3
+    length: 3
+    loop: 0
+    autoFramerate: 1
+    framerate: 3
+  - name: Attack4
+    length: 3
+    loop: 0
+    autoFramerate: 1
+    framerate: 3
+  - name: Sprint
+    length: 6
+    loop: 1
+    autoFramerate: 1
+    framerate: 6
+  - name: JumpUp
+    length: 2
+    loop: 1
+    autoFramerate: 1
+    framerate: 2
+  - name: JumpMax
+    length: 2
+    loop: 0
+    autoFramerate: 1
+    framerate: 2
+  - name: JumpDown
+    length: 2
+    loop: 1
+    autoFramerate: 1
+    framerate: 2
+  - name: JumpLand
+    length: 2
+    loop: 0
+    autoFramerate: 1
+    framerate: 2
+  - name: AirAttack1
+    length: 3
+    loop: 0
+    autoFramerate: 1
+    framerate: 3
+  - name: AirAttack2
+    length: 3
+    loop: 0
+    autoFramerate: 1
+    framerate: 3
+  - name: AirAttack3
+    length: 3
+    loop: 0
+    autoFramerate: 1
+    framerate: 3
+  - name: AirAttack4
+    length: 3
+    loop: 0
+    autoFramerate: 1
+    framerate: 3
+  - name: Dive
+    length: 2
+    loop: 1
+    autoFramerate: 1
+    framerate: 2
+  - name: GroundPound
+    length: 5
+    loop: 0
+    autoFramerate: 1
+    framerate: 5
+  - name: Hurt
+    length: 3
+    loop: 0
+    autoFramerate: 1
+    framerate: 3
+  - name: AirHurt
+    length: 3
+    loop: 0
+    autoFramerate: 1
+    framerate: 3
+  - name: CanPickup
+    length: 3
+    loop: 1
+    autoFramerate: 1
+    framerate: 3
+  - name: CanIdle
+    length: 5
+    loop: 1
+    autoFramerate: 1
+    framerate: 5
+  - name: CanWalk
+    length: 8
+    loop: 1
+    autoFramerate: 1
+    framerate: 8
+  - name: CanJumpUp
+    length: 2
+    loop: 1
+    autoFramerate: 1
+    framerate: 2
+  - name: CanJumpMax
+    length: 2
+    loop: 1
+    autoFramerate: 1
+    framerate: 2
+  - name: CanJumpDown
+    length: 2
+    loop: 1
+    autoFramerate: 1
+    framerate: 2
+  - name: CanJumpLand
+    length: 2
+    loop: 1
+    autoFramerate: 1
+    framerate: 2
+  - name: CanSprint
+    length: 6
+    loop: 1
+    autoFramerate: 1
+    framerate: 6
+  - name: Death
+    length: 5
+    loop: 0
+    autoFramerate: 1
+    framerate: 5
+  - name: Victory
+    length: 8
+    loop: 1
+    autoFramerate: 1
+    framerate: 8
+  - name: Taunt
+    length: 11
+    loop: 1
+    autoFramerate: 1
+    framerate: 11
+  - name: Throw
+    length: 3
+    loop: 0
+    autoFramerate: 1
+    framerate: 3
+  - name: Special
+    length: 7
+    loop: 0
+    autoFramerate: 1
+    framerate: 7
+  - name: CharacterSelect
+    length: 1
+    loop: 0
+    autoFramerate: 1
+    framerate: 1
