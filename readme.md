@@ -3,6 +3,8 @@
 A set of Unity Editor tools.
 This package contains several custom attributes, windows and components. They are all standalone and can be imported and used separately.
 
+[Get the UnityPackage!](https://github.com/kevincastejon/UnityTools/releases/download/1.0.0/KevinCastejon.UnityTools.unitypackage)
+
 ## What's in the box?
 
 #### Custom Attributes
