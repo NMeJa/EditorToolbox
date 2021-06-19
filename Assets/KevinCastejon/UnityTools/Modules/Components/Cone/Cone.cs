@@ -11,6 +11,9 @@ namespace KevinCastejon.UnityTools
         Z
     }
 
+    /// <summary>
+    /// Generate a cone mesh, renderer and collider, on the fly.
+    /// </summary>
     [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer), typeof(MeshCollider))]
     public class Cone : MonoBehaviour
     {

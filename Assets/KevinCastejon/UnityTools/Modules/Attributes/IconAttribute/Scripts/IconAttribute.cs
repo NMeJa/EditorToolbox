@@ -3,7 +3,7 @@ using UnityEngine;
 namespace KevinCastejon.UnityTools
 {
     /// <summary>
-    /// Custom inspector property icon
+    /// Custom inspector property icon.
     /// </summary>
     public class IconAttribute : PropertyAttribute
     {

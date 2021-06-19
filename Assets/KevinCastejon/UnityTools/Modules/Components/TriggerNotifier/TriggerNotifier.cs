@@ -4,6 +4,9 @@ using UnityEngine.Events;
 
 namespace KevinCastejon.UnityTools
 {
+    /// <summary>
+    /// Bind triggers message methods to UnityEvents.
+    /// </summary>
     [RequireComponent(typeof(Collider))]
     public class TriggerNotifier : MonoBehaviour
     {

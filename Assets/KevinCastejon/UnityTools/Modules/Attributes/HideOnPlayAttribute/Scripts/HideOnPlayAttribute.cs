@@ -3,7 +3,7 @@ using UnityEngine;
 namespace KevinCastejon.UnityTools
 {
     /// <summary>
-    /// Hide the property in PlayMode. The behaviour can be inverted with the 'invert' parameter so the property is visible only in PlayMode.
+    /// Hides the property in PlayMode. The behaviour can be inverted with the 'invert' parameter so the property is visible only in PlayMode.
     /// </summary>
     public class HideOnPlayAttribute : PropertyAttribute
     {
