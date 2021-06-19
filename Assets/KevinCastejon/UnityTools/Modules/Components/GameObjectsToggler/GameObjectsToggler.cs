@@ -4,7 +4,7 @@ using UnityEngine.Events;
 namespace KevinCastejon.UnityTools
 {
     /// <summary>
-    /// Switch the enabling between two GameObjects and fire events on switching.
+    /// Switch the enable state between two GameObjects and fire events on switching.
     /// </summary>
     public class GameObjectsToggler : MonoBehaviour
     {

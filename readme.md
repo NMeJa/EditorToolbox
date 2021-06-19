@@ -57,7 +57,7 @@ Automatically set the *Max Texture Size* on multiple **Texture2D** assets accord
 Generate a cone mesh, renderer and collider, on the fly.
 
 - [**GameObjectsToggler**](/Assets/KevinCastejon/UnityTools/Documentation/Components/GameObjectsToggler/readme.md)</BR>
-Switch the enabling between two **GameObjects** and fire events on switching.
+Switch the enable state between two GameObjects and fire events on switching.
 
 - [**TriggerNotifier**](/Assets/KevinCastejon/UnityTools/Documentation/Components/TriggerNotifier/readme.md)</BR>
 Bind triggers message methods to **UnityEvents**.
