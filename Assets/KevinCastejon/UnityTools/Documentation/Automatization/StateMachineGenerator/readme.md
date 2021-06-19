@@ -8,3 +8,5 @@ Generate **StateMachine** scripts squeletons with a few clicks.
 - Add / remove / modify states names.
   - You can set some code-styling options like ***regions*** usage and methods grouping.
 - Generate the script by clicking **Generate**.
+
+![](img/StateMachineGeneratorWindowPreview.jpg)

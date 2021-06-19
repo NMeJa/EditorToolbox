@@ -26,7 +26,9 @@ namespace KevinCastejon.Tools
         [MenuItem("Window/StateMachineGenerator")]
         public static void ShowWindow()
         {
-            GetWindow(typeof(StateMachineGenerator)).minSize = new Vector2(550, 300);
+           EditorWindow window = GetWindow(typeof(StateMachineGenerator));
+            window.minSize = new Vector2(550, 300);
+            window.titleContent = new GUIContent("StateMachine Generator");
         }
 
         private void Awake()

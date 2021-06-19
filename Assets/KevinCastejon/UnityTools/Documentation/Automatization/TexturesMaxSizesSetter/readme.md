@@ -6,3 +6,5 @@ Automatically set the Max Texture Size on multiple Texture2D assets according to
 
 - Right-click on Texture2D assets selection (you can select folders as well) and browse to ***UnityTools > Set Automatic Textures Sizes***.
 - Confirm by clicking **Ok**.
+
+![](img/AutomaticTexturesMaxSizesSetter.gif)

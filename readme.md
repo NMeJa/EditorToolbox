@@ -38,26 +38,26 @@ Displays a dropdown list of available Tags (must be used with a 'string' typed p
 #### Automatization
 
 
-- [**AnimationGenerator**](/Assets/KevinCastejon/UnityTools/Documentation/Attributes/AnimationGenerator/readme.md)</BR>
+- [**AnimationGenerator**](/Assets/KevinCastejon/UnityTools/Documentation/Automatization/AnimationGenerator/readme.md)</BR>
 Generate **AnimationClip** assets from a **Texture2D** spritesheet asset, save and reuse the sprites mapping configuration.
 
-- [**CustomEditorGenerator**](/Assets/KevinCastejon/UnityTools/Documentation/Attributes/CustomEditorGenerator/readme.md)</BR>
+- [**CustomEditorGenerator**](/Assets/KevinCastejon/UnityTools/Documentation/Automatization/CustomEditorGenerator/readme.md)</BR>
 Generate a base **Editor** script for any **MonoBehaviour** script.
 
-- [**StateMachineGenerator**](/Assets/KevinCastejon/UnityTools/Documentation/Attributes/StateMachineGenerator/readme.md)</BR>
+- [**StateMachineGenerator**](/Assets/KevinCastejon/UnityTools/Documentation/Automatization/StateMachineGenerator/readme.md)</BR>
 Generate **StateMachine** scripts squeletons with a few clicks.
 
-- [**TexturesMaxSizesSetter**](/Assets/KevinCastejon/UnityTools/Documentation/Attributes/TexturesMaxSizesSetter/readme.md)</BR>
+- [**TexturesMaxSizesSetter**](/Assets/KevinCastejon/UnityTools/Documentation/Automatization/TexturesMaxSizesSetter/readme.md)</BR>
 Automatically set the *Max Texture Size* on multiple **Texture2D** assets according to their real sizes.
 
 #### Components
 
 
-- [**Cone**](/Assets/KevinCastejon/UnityTools/Documentation/Attributes/Cone/readme.md)</BR>
+- [**Cone**](/Assets/KevinCastejon/UnityTools/Documentation/Components/Cone/readme.md)</BR>
 Generate a cone mesh, renderer and collider, on the fly.
 
-- [**GameObjectsToggler**](/Assets/KevinCastejon/UnityTools/Documentation/Attributes/GameObjectsToggler/readme.md)</BR>
+- [**GameObjectsToggler**](/Assets/KevinCastejon/UnityTools/Documentation/Components/GameObjectsToggler/readme.md)</BR>
 Switch the enabling between two **GameObjects** and fire events on switching.
 
-- [**TriggerNotifier**](/Assets/KevinCastejon/UnityTools/Documentation/Attributes/TriggerNotifier/readme.md)</BR>
+- [**TriggerNotifier**](/Assets/KevinCastejon/UnityTools/Documentation/Components/TriggerNotifier/readme.md)</BR>
 Bind triggers message methods to **UnityEvents**.
