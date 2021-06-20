@@ -13,8 +13,28 @@ MonoBehaviour:
   m_Name: DinoSprites
   m_EditorClassIdentifier: 
   animations:
-  - name: AnimationClipName
-    length: 1
+  - name: Idle
+    length: 5
     loop: 1
     autoFramerate: 1
-    framerate: 60
+    framerate: 5
+  - name: Move
+    length: 5
+    loop: 1
+    autoFramerate: 1
+    framerate: 5
+  - name: Kick
+    length: 4
+    loop: 1
+    autoFramerate: 1
+    framerate: 4
+  - name: Hurt
+    length: 3
+    loop: 1
+    autoFramerate: 1
+    framerate: 3
+  - name: Run
+    length: 4
+    loop: 1
+    autoFramerate: 1
+    framerate: 4
