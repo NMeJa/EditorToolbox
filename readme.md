@@ -1,6 +1,6 @@
 # Unity Tools
 
-A set of Unity Editor tools.</BR>
+A set of Unity Editor tools.<BR/>
 This package contains several custom attributes, windows and components. They are all standalone and can be imported and used separately.
 
 [Get the UnityPackage!](https://github.com/kevincastejon/UnityTools/releases/download/1.0.0/KevinCastejon.UnityTools.unitypackage)
