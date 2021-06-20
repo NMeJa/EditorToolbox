@@ -2,9 +2,9 @@
 Custom *Inspector* property label that allows using an icon, a custom label text and a custom label color.
 
 ## How to use
-Put the attribute in front of a property.</BR>
-You can specify a icon path, a custom label text and a custom label color.</BR>
-You can use an empty string for the icon path for not using custom icon.</BR>
+Put the attribute in front of a property.<BR/>
+You can specify a icon path, a custom label text and a custom label color.<BR/>
+You can use an empty string for the icon path for not using custom icon.<BR/>
 You can use **LabelPlusColor** *enum* color preset and cast it to int, or an array of float[0-1] (RGBA).
 
 ## Examples
