@@ -1,4 +1,4 @@
-# Unity Tools
+# EditorToolbox
 
 A set of Unity Editor tools.<BR/>
 This package contains several custom attributes, windows and components. They are all standalone and can be imported and used separately.
