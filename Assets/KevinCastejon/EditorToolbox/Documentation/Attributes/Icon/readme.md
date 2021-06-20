@@ -12,4 +12,4 @@ public int healthPoints;
 [Icon("Assets/PathToYourIcon/sword.png")]
 public int damages;
 ```
-![](img/IconAttributeInspectorPreview.jpg)
+![](img/IconAttributeInspectorPreview.png)

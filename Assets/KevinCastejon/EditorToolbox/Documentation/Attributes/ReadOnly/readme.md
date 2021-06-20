@@ -11,4 +11,4 @@ public int healthPoints;
 [ReadOnly]
 public int damages;
 ```
-![](img/ReadOnlyAttributeInspectorPreview.jpg)
+![](img/ReadOnlyAttributeInspectorPreview.png)

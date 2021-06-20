@@ -9,4 +9,4 @@ Put the attribute in front of a property.
 [Tag]
 public string _targetTag;
 ```
-![](img/TagAttributeInspectorPreview.jpg)
+![](img/TagAttributeInspectorPreview.png)

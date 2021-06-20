@@ -13,4 +13,4 @@ Generate **AnimationClip** assets from a **Texture2D** spritesheet asset, save a
   - You can add an ***internal path*** for your sprites, usefull if the **SpriteRenderer** component is on a **GameObject** that is a child of the **GameObject** holding the **Animator** component.
 - Generate the **AnimationClip** assets by clicking **Ok** and selecting a destination folder where all the assets will be created.
 
-![](img/AnimationGeneratorWindowPreview.jpg)
+![](img/AnimationGeneratorWindowPreview.png)

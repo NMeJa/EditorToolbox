@@ -14,4 +14,4 @@ public int healthPoints;
 [HeaderPlus("Assets/PathToYourIcon/sword.png", "Health Points", new float[] { 1f, 0f, 0f, 1f }))]
 public int damages;
 ```
-![](img/HeaderPlusAttributeInspectorPreview.jpg)
+![](img/HeaderPlusAttributeInspectorPreview.png)

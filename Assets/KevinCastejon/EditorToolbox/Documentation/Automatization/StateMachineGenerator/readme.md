@@ -9,4 +9,4 @@ Generate **StateMachine** scripts squeletons with a few clicks.
   - You can set some code-styling options like ***regions*** usage and methods grouping.
 - Generate the script by clicking **Generate**.
 
-![](img/StateMachineGeneratorWindowPreview.jpg)
+![](img/StateMachineGeneratorWindowPreview.png)

@@ -14,4 +14,4 @@ public int healthPoints;
 [LabelPlus("Assets/PathToYourIcon/sword.png", "Health Points", new float[] { 1f, 0f, 0f, 1f }))]
 public int damages;
 ```
-![](img/LabelPlusAttributeInspectorPreview.jpg)
+![](img/LabelPlusAttributeInspectorPreview.png)
