@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace KevinCastejon.UnityTools
+namespace KevinCastejon.EditorToolbox
 {
     /// <summary>
     /// Custom inspector property icon.

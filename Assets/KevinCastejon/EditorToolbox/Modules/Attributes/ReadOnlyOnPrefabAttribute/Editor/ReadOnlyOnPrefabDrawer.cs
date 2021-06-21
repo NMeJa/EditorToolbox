@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEditor.Experimental.SceneManagement;
 
-namespace KevinCastejon.UnityTools
+namespace KevinCastejon.EditorToolbox
 {
     [CustomPropertyDrawer(typeof(ReadOnlyOnPrefabAttribute))]
     public class ReadOnlyOnPrefabDrawer : PropertyDrawer

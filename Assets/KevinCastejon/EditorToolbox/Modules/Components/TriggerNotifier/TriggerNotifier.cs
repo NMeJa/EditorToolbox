@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace KevinCastejon.UnityTools
+namespace KevinCastejon.EditorToolbox
 {
     /// <summary>
     /// Bind triggers message methods to UnityEvents.

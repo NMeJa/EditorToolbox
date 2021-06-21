@@ -1,6 +1,6 @@
 using System;
 
-namespace KevinCastejon.UnityTools
+namespace KevinCastejon.EditorToolbox
 {
     [Serializable]
     public class AnimationInfo

@@ -5,7 +5,7 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace KevinCastejon.UnityTools
+namespace KevinCastejon.EditorToolbox
 {
     /// <summary>
     /// Automatically set the Max Texture Size on multiple Texture2D assets according to their real sizes.
@@ -100,7 +100,7 @@ namespace KevinCastejon.UnityTools
             return validPaths;
         }
 
-        [MenuItem("Assets/UnityTools/Set Automatic Textures Sizes")]
+        [MenuItem("Assets/EditorTools/Set Automatic Textures Sizes")]
         private static void OpenWindow()
         {
             TexturesMaxSizesSetter window = GetWindow(typeof(TexturesMaxSizesSetter)) as TexturesMaxSizesSetter;

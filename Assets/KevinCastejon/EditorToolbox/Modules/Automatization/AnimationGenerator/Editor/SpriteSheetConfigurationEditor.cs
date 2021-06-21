@@ -1,6 +1,6 @@
 using UnityEditor;
 
-namespace KevinCastejon.UnityTools
+namespace KevinCastejon.EditorToolbox
 {
     [CustomEditor(typeof(SpriteSheetConfiguration))]
     public class SpriteSheetConfigurationEditor : Editor

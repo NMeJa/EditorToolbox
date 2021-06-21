@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace KevinCastejon.UnityTools
+namespace KevinCastejon.EditorToolbox
 {
     [CustomPropertyDrawer(typeof(AnimationInfo))]
     public class AnimationInfoDrawer : PropertyDrawer

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace KevinCastejon.UnityTools
+namespace KevinCastejon.EditorToolbox
 {
     /// <summary>
     /// Configuration asset for generating AnimationClip assets from a Texture2D spritesheet asset into AnimationGenerator window.

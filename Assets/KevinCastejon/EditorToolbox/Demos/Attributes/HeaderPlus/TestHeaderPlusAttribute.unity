@@ -331,6 +331,7 @@ MonoBehaviour:
   _currentHealth: 0
   _maxHealth: 0
   _damagePoints: 0
+  _attackSpeed: 0
 --- !u!4 &8870627879771250114
 Transform:
   m_ObjectHideFlags: 0

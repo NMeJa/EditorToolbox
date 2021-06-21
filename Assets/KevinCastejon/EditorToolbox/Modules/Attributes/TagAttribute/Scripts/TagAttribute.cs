@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace KevinCastejon.UnityTools
+namespace KevinCastejon.EditorToolbox
 {
     /// <summary>
     /// Displays a dropdown list of available Tags (must be used with a 'string' typed property).

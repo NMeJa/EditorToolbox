@@ -5,11 +5,11 @@ using UnityEditor;
 using UnityEngine;
 
 
-namespace KevinCastejon.UnityTools
+namespace KevinCastejon.EditorToolbox
 {
     public class CustomEditorGenerator : Editor
     {
-        [MenuItem("Assets/UnityTools/Generate Custom Editor", true)]
+        [MenuItem("Assets/EditorTools/Generate Custom Editor", true)]
         private static bool GenerateCustomEditorValidation()
         {
             string selectedPath = AssetDatabase.GetAssetPath(Selection.activeObject.GetInstanceID());
@@ -18,17 +18,36 @@ namespace KevinCastejon.UnityTools
             return isScriptAsset;
         }
 
-        [MenuItem("Assets/UnityTools/Generate Custom Editor")]
+        [MenuItem("Assets/EditorTools/Generate Custom Editor")]
         private static void GenerateCustomEditor()
         {
             string path = AssetDatabase.GetAssetPath(Selection.activeObject);
             path = path.Substring(6);
             path = path.Substring(0, path.LastIndexOf("/"));
             MonoScript script = (MonoScript)Selection.activeObject;
-            GameObject go = new GameObject("CustomEditorGenerator");
-            Type scriptClass = script.GetClass();
-            Component cpt = go.AddComponent(scriptClass);
-            SerializedObject so = new SerializedObject(cpt);
+            Type scriptClass;
+            SerializedObject so;
+            GameObject go = null;
+            bool isScriptable = false;
+            if (script.GetClass().IsSubclassOf(typeof(ScriptableObject)))
+            {
+                scriptClass = script.GetClass();
+                so = new SerializedObject(CreateInstance(scriptClass));
+                isScriptable = true;
+            }
+            else if (script.GetClass().IsSubclassOf(typeof(MonoBehaviour)))
+            {
+                go = new GameObject("CustomEditorGenerator");
+                scriptClass = script.GetClass();
+                Component cpt = go.AddComponent(scriptClass);
+                so = new SerializedObject(cpt);
+            }
+            else
+            {
+                Debug.LogError("CustomEditorGenerator only works with MonoBehaviour or ScriptableObject script assets");
+                return;
+            }
+
             List<string> propsNames = new List<string>();
             SerializedProperty sp = so.GetIterator();
             if (sp.NextVisible(true))
@@ -42,7 +61,10 @@ namespace KevinCastejon.UnityTools
                 }
                 while (sp.NextVisible(false));
             }
-            DestroyImmediate(go);
+            if (!isScriptable)
+            {
+                DestroyImmediate(go);
+            }
             if (!Directory.Exists(Application.dataPath + path + "/Editor"))
             {
                 AssetDatabase.CreateFolder("Assets" + path, "Editor");

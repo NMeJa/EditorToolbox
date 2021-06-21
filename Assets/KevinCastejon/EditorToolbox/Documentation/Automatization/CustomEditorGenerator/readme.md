@@ -1,9 +1,9 @@
 # CustomEditorGenerator
 
-Generate a base Editor script for any MonoBehaviour script.
+Generate a base **Editor** script for any **MonoBehaviour** or **ScriptableObject** script.
 
 ## How to use
 
-- Right-click on MonoBehaviour script on the **ProjectView** and browse to ***UnityTools > Generate Custom Editor***.
+- Right-click on **MonoBehaviour** or **ScriptableObject** script on the **ProjectView** and browse to ***UnityTools > Generate Custom Editor***.
 
 ![](img/CustomEditorGeneratorPreview.gif)

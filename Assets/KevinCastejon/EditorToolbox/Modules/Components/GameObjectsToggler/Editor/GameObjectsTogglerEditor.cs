@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace KevinCastejon.UnityTools
+namespace KevinCastejon.EditorToolbox
 {
     [CustomEditor(typeof(GameObjectsToggler))]
     public class GameObjectsTogglerEditor : Editor

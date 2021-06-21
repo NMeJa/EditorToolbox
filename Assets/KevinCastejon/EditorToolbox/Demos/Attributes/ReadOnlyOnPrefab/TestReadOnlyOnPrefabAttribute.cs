@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using KevinCastejon.UnityTools;
+using KevinCastejon.EditorToolbox;
 
 public class TestReadOnlyOnPrefabAttribute : MonoBehaviour
 {

@@ -15,11 +15,11 @@ E:/GitHub/EditorToolbox
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62584
+52433
 Successfully changed project path to: E:/GitHub/EditorToolbox
 E:/GitHub/EditorToolbox
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 30.03 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,24 +35,378 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002915 seconds.
+Registered in 0.004389 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 26.96 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 33.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.278 seconds
+- Completed reload, in  2.557 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001340 seconds.
+Registered in 0.001455 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1647.
+Total: 2.040900 ms (FindLiveObjects: 0.148900 ms CreateObjectMapping: 0.045700 ms MarkObjects: 1.759400 ms  DeleteObjects: 0.085700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomEditorGenerator/Editor/CustomEditorGenerator.cs
+  artifactKey: Guid(71de5e9dfffc3af40b6db232ee5bfc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomEditorGenerator/Editor/CustomEditorGenerator.cs using Guid(71de5e9dfffc3af40b6db232ee5bfc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebc9ab0c4cc1000e4aef99e034006d9') in 0.057240 seconds
+  Import took 0.213771 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001306 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.062 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.6 MB.
+System memory in use after: 59.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1650.
+Total: 1.639800 ms (FindLiveObjects: 0.160300 ms CreateObjectMapping: 0.046000 ms MarkObjects: 1.374100 ms  DeleteObjects: 0.057800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.096647 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomEditorGenerator/Editor/CustomEditorGenerator.cs
+  artifactKey: Guid(71de5e9dfffc3af40b6db232ee5bfc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomEditorGenerator/Editor/CustomEditorGenerator.cs using Guid(71de5e9dfffc3af40b6db232ee5bfc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011892d53a1d20167491ab86ea4c2ec9') in 0.006808 seconds
+  Import took 0.021852 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.929 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1190 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.6 MB.
+System memory in use after: 59.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1653.
+Total: 1.652700 ms (FindLiveObjects: 0.137300 ms CreateObjectMapping: 0.038100 ms MarkObjects: 1.424400 ms  DeleteObjects: 0.051400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001755 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.117 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.6 MB.
+System memory in use after: 59.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1656.
+Total: 2.168500 ms (FindLiveObjects: 0.157900 ms CreateObjectMapping: 0.048600 ms MarkObjects: 1.912400 ms  DeleteObjects: 0.048400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001338 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.332 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1660.
+Total: 1.685000 ms (FindLiveObjects: 0.211200 ms CreateObjectMapping: 0.044100 ms MarkObjects: 1.376500 ms  DeleteObjects: 0.051600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.640855 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator
+  artifactKey: Guid(ac653896e453b95438c555830154719b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator using Guid(ac653896e453b95438c555830154719b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2209b03e4807592c3aeff40399195d') in 0.017634 seconds
+  Import took 0.041956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.763285 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor
+  artifactKey: Guid(237f241a425f0e743a9a3a69f4ffbd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor using Guid(237f241a425f0e743a9a3a69f4ffbd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3017d20929c92727c0d792584ec11a07') in 0.014375 seconds
+  Import took 0.017261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.717861 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor/CustomPropertyDrawerGenerator.cs
+  artifactKey: Guid(ae3817d954965ec44877dba8e9f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor/CustomPropertyDrawerGenerator.cs using Guid(ae3817d954965ec44877dba8e9f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07732de4cf22a64d7b4e8dfd018956fe') in 0.009602 seconds
+  Import took 0.024858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016170 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor/CustomPropertyDrawerGenerator.cs
+  artifactKey: Guid(ae3817d954965ec44877dba8e9f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor/CustomPropertyDrawerGenerator.cs using Guid(ae3817d954965ec44877dba8e9f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07732de4cf22a64d7b4e8dfd018956fe') in 0.011682 seconds
+  Import took 0.014262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.367062 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor/CustomPropertyDrawerGenerator.cs
+  artifactKey: Guid(ae3817d954965ec44877dba8e9f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor/CustomPropertyDrawerGenerator.cs using Guid(ae3817d954965ec44877dba8e9f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6f9d0f4d7bf1b86b8dc6a795cb846c') in 0.018595 seconds
+  Import took 0.026649 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001381 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.007 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1663.
+Total: 2.236600 ms (FindLiveObjects: 0.145100 ms CreateObjectMapping: 0.039700 ms MarkObjects: 1.997600 ms  DeleteObjects: 0.052900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 950.086650 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor/CustomPropertyDrawerGenerator.cs
+  artifactKey: Guid(ae3817d954965ec44877dba8e9f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor/CustomPropertyDrawerGenerator.cs using Guid(ae3817d954965ec44877dba8e9f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5b9819c4528817c561d12873534859') in 0.018408 seconds
+  Import took 0.049790 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001308 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.184 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1666.
+Total: 3.710200 ms (FindLiveObjects: 0.201000 ms CreateObjectMapping: 0.056900 ms MarkObjects: 3.392000 ms  DeleteObjects: 0.058500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.290357 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor/CustomPropertyDrawerGenerator.cs
+  artifactKey: Guid(ae3817d954965ec44877dba8e9f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor/CustomPropertyDrawerGenerator.cs using Guid(ae3817d954965ec44877dba8e9f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c763093740a61ca30ad4d5af359b9dba') in 0.013254 seconds
+  Import took 0.029691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.971093 seconds.
+  path: Assets/AssetStoreTools/AS_Checklist.asset
+  artifactKey: Guid(151d33434bb659f4c9479ca27bcd4b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/AS_Checklist.asset using Guid(151d33434bb659f4c9479ca27bcd4b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0adede7167a51cedd9adb715d431d5c') in 0.031257 seconds
+  Import took 0.053288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.237357 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator
+  artifactKey: Guid(f3c1d57dbb3a1784fb125d5492a91e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator using Guid(f3c1d57dbb3a1784fb125d5492a91e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca10bb3f4088c2c3989a7d581d5b849a') in 0.011646 seconds
+  Import took 0.023036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.358023 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs
+  artifactKey: Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs using Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6afd60f5b3b14d0a0f9345732d39cf03') in 0.036477 seconds
+  Import took 0.074424 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001721 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1670.
+Total: 2.352200 ms (FindLiveObjects: 0.140500 ms CreateObjectMapping: 0.053300 ms MarkObjects: 2.092200 ms  DeleteObjects: 0.065100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001298 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1673.
+Total: 1.804100 ms (FindLiveObjects: 0.139900 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.542500 ms  DeleteObjects: 0.079700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.807837 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs
+  artifactKey: Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs using Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee2225cacbf41ae0e92ac712892c539') in 0.010042 seconds
+  Import took 0.078803 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001397 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1676.
+Total: 2.254000 ms (FindLiveObjects: 0.152600 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.987000 ms  DeleteObjects: 0.075000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.750020 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs
+  artifactKey: Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs using Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8475bd12a1a4b536f5637e35e81766') in 0.013165 seconds
+  Import took 0.015949 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002703 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -62,617 +416,374 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.949 seconds
+- Completed reload, in  1.066 seconds
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.6 MB.
-System memory in use after: 58.6 MB.
+Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1613.
-Total: 1.862300 ms (FindLiveObjects: 0.132500 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.518800 ms  DeleteObjects: 0.171200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/AssetStoreTools/Editor/AssetStoreTools.dll
-  artifactKey: Guid(db89eddc1931309408191e6d4644d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/Editor/AssetStoreTools.dll using Guid(db89eddc1931309408191e6d4644d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5dc8675e541b28c68388f3c3a5a8fb') in 0.041291 seconds
-  Import took 0.043638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/AssetStoreTools
-  artifactKey: Guid(8466fccc5fcd4d74ea48c2a9411d446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools using Guid(8466fccc5fcd4d74ea48c2a9411d446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68a5a84500558f04d3ad1bb06e73ed6') in 0.002057 seconds
-  Import took 0.004039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/AssetStoreTools/Editor
-  artifactKey: Guid(cf7638d43c18cec40b4b9312969b5378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreTools/Editor using Guid(cf7638d43c18cec40b4b9312969b5378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c0384f5b1396108b130e0f0335e1bc') in 0.009321 seconds
-  Import took 0.011331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2785.573547 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Components/TriggerNotifier/readme.pdf
-  artifactKey: Guid(b403f02acaf9b4d4783dab0657040640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Components/TriggerNotifier/readme.pdf using Guid(b403f02acaf9b4d4783dab0657040640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbf21452c4256e0142aaa9572594d3a') in 0.021983 seconds
-  Import took 0.033814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018045 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/CustomEditorGenerator/readme.pdf
-  artifactKey: Guid(111f56ce33b1ab44295cb1bead3cc1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/CustomEditorGenerator/readme.pdf using Guid(111f56ce33b1ab44295cb1bead3cc1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749e83e107de36406a4ea6e6f3e43289') in 0.003022 seconds
-  Import took 0.005953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003850 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/StateMachineGenerator/readme.pdf
-  artifactKey: Guid(241867837c679774282bd0196b2b18e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/StateMachineGenerator/readme.pdf using Guid(241867837c679774282bd0196b2b18e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b4c3c0c919eb1521c6357841beeb56') in 0.003701 seconds
-  Import took 0.015531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.110429 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/TexturesMaxSizesSetter/readme.pdf
-  artifactKey: Guid(558aa35826f3e0145825e0cd9e94bf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/TexturesMaxSizesSetter/readme.pdf using Guid(558aa35826f3e0145825e0cd9e94bf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69da56a415e65a8e7b80251f76999f4c') in 0.002369 seconds
-  Import took 0.011096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010656 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/ReadOnlyOnPrefab/readme.pdf
-  artifactKey: Guid(d683ec6f7b1d0a147b7a631a76edbb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/ReadOnlyOnPrefab/readme.pdf using Guid(d683ec6f7b1d0a147b7a631a76edbb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1567b973d4be407c71b762f9ec6cb2') in 0.002478 seconds
-  Import took 0.005426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026004 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/LabelPlus/readme.pdf
-  artifactKey: Guid(af3091eb5eea9c747b824f32e7f8f207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/LabelPlus/readme.pdf using Guid(af3091eb5eea9c747b824f32e7f8f207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06fbd5ffb81c84cf66dc955651f97de') in 0.002370 seconds
-  Import took 0.005532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003248 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/HideOnPlay/readme.pdf
-  artifactKey: Guid(9aaea16bfff1120499ab81dfbd8b1f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/HideOnPlay/readme.pdf using Guid(9aaea16bfff1120499ab81dfbd8b1f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e36c44006abc08c24624dc14ee9c86a') in 0.002457 seconds
-  Import took 0.026890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002501 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/HideOnPrefab/readme.pdf
-  artifactKey: Guid(27806f40b779ead4580152003c8da456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/HideOnPrefab/readme.pdf using Guid(27806f40b779ead4580152003c8da456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c52c43f156d2f9a8da1a28a18c78e0') in 0.002484 seconds
-  Import took 0.005326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031209 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/Tag/readme.pdf
-  artifactKey: Guid(cae1d633e04dc204a9ed3ac437b078b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/Tag/readme.pdf using Guid(cae1d633e04dc204a9ed3ac437b078b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d7f89c00785866babee17096da68e0') in 0.002104 seconds
-  Import took 0.004689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.178199 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/HeaderPlus/readme.pdf
-  artifactKey: Guid(352f19d5f3c50d0469c4c9e42c41c1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/HeaderPlus/readme.pdf using Guid(352f19d5f3c50d0469c4c9e42c41c1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4764430c0622aa858ef0926d51d6d5dc') in 0.009895 seconds
-  Import took 0.012156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.072231 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Components/Cone/readme.pdf
-  artifactKey: Guid(90f96782f3b1ac149b271c4e77b2a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Components/Cone/readme.pdf using Guid(90f96782f3b1ac149b271c4e77b2a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeddcfc49fc71523c3f6be032ad49359') in 0.002782 seconds
-  Import took 0.005595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.043441 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/Icon/readme.pdf
-  artifactKey: Guid(3200e7ae4955a614a8b17ee0cc221ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/Icon/readme.pdf using Guid(3200e7ae4955a614a8b17ee0cc221ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094cc4f6064706c514741f3b618d4180') in 0.002245 seconds
-  Import took 0.005773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037663 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/ReadOnly/readme.pdf
-  artifactKey: Guid(3f1d6a51683ff8c408e12ce69cd58a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/ReadOnly/readme.pdf using Guid(3f1d6a51683ff8c408e12ce69cd58a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8494b9017fce6e236e23785cd92ead') in 0.002191 seconds
-  Import took 0.004219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061923 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/AnimationGenerator/readme.pdf
-  artifactKey: Guid(87ee06f17cecbf242a5a56ca102562e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/AnimationGenerator/readme.pdf using Guid(87ee06f17cecbf242a5a56ca102562e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecfe4d1e0b3439b76cefa355a1ce0e3') in 0.002106 seconds
-  Import took 0.014939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028640 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/ReadOnlyOnPlay/readme.pdf
-  artifactKey: Guid(51bed00c07d3e1a478beba53db4130f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/ReadOnlyOnPlay/readme.pdf using Guid(51bed00c07d3e1a478beba53db4130f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96d205251ac63003886a81cbb51475f') in 0.002209 seconds
-  Import took 0.004205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006677 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Components/GameObjectsToggler/readme.pdf
-  artifactKey: Guid(8b10a4b37691cf746a6e0605e14bba7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Components/GameObjectsToggler/readme.pdf using Guid(8b10a4b37691cf746a6e0605e14bba7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601671e659a97d891244f41b36620177') in 0.002905 seconds
-  Import took 0.005308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 476.385895 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/HeaderPlus/img/HeaderPlusAttributeInspectorPreview.png
-  artifactKey: Guid(e2cdda840d45d7c4d846a8d11c3010d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/HeaderPlus/img/HeaderPlusAttributeInspectorPreview.png using Guid(e2cdda840d45d7c4d846a8d11c3010d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c96d86fcd46ff260bd37fb0339ba098') in 0.055939 seconds
-  Import took 0.072001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 87.408709 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/StateMachineGenerator/img/StateMachineGeneratorWindowPreview.png
-  artifactKey: Guid(487a9203f1cf4044b92c4f79d898cf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/StateMachineGenerator/img/StateMachineGeneratorWindowPreview.png using Guid(487a9203f1cf4044b92c4f79d898cf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34b441f815920fb1e2a578a30babf77') in 0.014408 seconds
-  Import took 0.047479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.064211 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/Tag/img/TagAttributeInspectorPreview.png
-  artifactKey: Guid(3457e79fe52836b49948e01d970424f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/Tag/img/TagAttributeInspectorPreview.png using Guid(3457e79fe52836b49948e01d970424f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec50f7361209c3283fd2b15caf7311c8') in 0.009797 seconds
-  Import took 0.039295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023942 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/Icon/img/IconAttributeInspectorPreview.png
-  artifactKey: Guid(eaadb5d4460c0dd4491e601324b57905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/Icon/img/IconAttributeInspectorPreview.png using Guid(eaadb5d4460c0dd4491e601324b57905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8dddb99915e04a5b6da9cb9f00ef66') in 0.010737 seconds
-  Import took 0.012779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.107709 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/LabelPlus/img/LabelPlusAttributeInspectorPreview.png
-  artifactKey: Guid(760e7089d9dfb6c43a60b7b6cd850c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/LabelPlus/img/LabelPlusAttributeInspectorPreview.png using Guid(760e7089d9dfb6c43a60b7b6cd850c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a023cfce5edf2eedb337631cf1963113') in 0.010375 seconds
-  Import took 0.012772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.038383 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/ReadOnly/img/ReadOnlyAttributeInspectorPreview.png
-  artifactKey: Guid(334d490a2a286b04badeffe754132552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/ReadOnly/img/ReadOnlyAttributeInspectorPreview.png using Guid(334d490a2a286b04badeffe754132552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c8237339ba00507b83eb67261f1601') in 0.010446 seconds
-  Import took 0.030448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.253862 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/AnimationGenerator/img/AnimationGeneratorWindowPreview.png
-  artifactKey: Guid(9bba591a80df04b42a5ceb0106ee6b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/AnimationGenerator/img/AnimationGeneratorWindowPreview.png using Guid(9bba591a80df04b42a5ceb0106ee6b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9704c1ae85a3dae486388b884a6dd4a7') in 0.014527 seconds
-  Import took 0.016628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1743.982494 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png
-  artifactKey: Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png using Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5cc2a73297b1949e91cb251ee56440a') in 0.026720 seconds
-  Import took 0.116867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.211524 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - mort.png
-  artifactKey: Guid(bfd80b1662619464ba503410bf99ef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - mort.png using Guid(bfd80b1662619464ba503410bf99ef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888678fe9ee71d4b794f745d717a980e') in 0.023920 seconds
-  Import took 0.026753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - tard.png
-  artifactKey: Guid(9c3603d0147c069409618c676b3590c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - tard.png using Guid(9c3603d0147c069409618c676b3590c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2094ae415e8bb4b15c4f06aa9de63f7d') in 0.012998 seconds
-  Import took 0.024009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - vita.png
-  artifactKey: Guid(ab52149209e331548996da61a4035f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - vita.png using Guid(ab52149209e331548996da61a4035f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd024a2bf2366ebdb3f37953e611af8') in 0.010160 seconds
-  Import took 0.013330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.178519 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png
-  artifactKey: Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png using Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46f94a35a1a27810d93ab735a14ae1c') in 0.015368 seconds
-  Import took 0.030923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - mort.png
-  artifactKey: Guid(bfd80b1662619464ba503410bf99ef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - mort.png using Guid(bfd80b1662619464ba503410bf99ef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3cc322fb150a7aebf7a61a043645cf') in 0.014054 seconds
-  Import took 0.016827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - tard.png
-  artifactKey: Guid(9c3603d0147c069409618c676b3590c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - tard.png using Guid(9c3603d0147c069409618c676b3590c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660a53be2ee09ec7dcb6cab81f2e3593') in 0.012523 seconds
-  Import took 0.015811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - vita.png
-  artifactKey: Guid(ab52149209e331548996da61a4035f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - vita.png using Guid(ab52149209e331548996da61a4035f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ba585ba87183673d35818eda244731') in 0.012416 seconds
-  Import took 0.015005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.422867 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png
-  artifactKey: Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png using Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f926eb309a81438340f93a1522a943') in 0.009122 seconds
-  Import took 0.012242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009553 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png
-  artifactKey: Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png using Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f926eb309a81438340f93a1522a943') in 0.009668 seconds
-  Import took 0.012088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - mort.png
-  artifactKey: Guid(bfd80b1662619464ba503410bf99ef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - mort.png using Guid(bfd80b1662619464ba503410bf99ef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45703aaeb4a8d6d036b2f54d2d4d96ec') in 0.008956 seconds
-  Import took 0.011718 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - tard.png
-  artifactKey: Guid(9c3603d0147c069409618c676b3590c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - tard.png using Guid(9c3603d0147c069409618c676b3590c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e79784542fcb3d8b5ad555fbd96696') in 0.008467 seconds
-  Import took 0.011340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - vita.png
-  artifactKey: Guid(ab52149209e331548996da61a4035f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - vita.png using Guid(ab52149209e331548996da61a4035f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec5bac7bccaccc6660919a4442a30ef') in 0.005805 seconds
-  Import took 0.009261 seconds .
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1679.
+Total: 1.871100 ms (FindLiveObjects: 0.154200 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.619400 ms  DeleteObjects: 0.054500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001211 seconds.
+Registered in 0.001939 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.911 seconds
+- Completed reload, in  0.991 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1191 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 59.7 MB.
 System memory in use after: 59.8 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1656.
-Total: 1.697800 ms (FindLiveObjects: 0.134300 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.428300 ms  DeleteObjects: 0.094900 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1682.
+Total: 1.901000 ms (FindLiveObjects: 0.153200 ms CreateObjectMapping: 0.039500 ms MarkObjects: 1.600900 ms  DeleteObjects: 0.106100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 150.146893 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - tard.png
-  artifactKey: Guid(9c3603d0147c069409618c676b3590c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - tard.png using Guid(9c3603d0147c069409618c676b3590c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51175bb692e2a6f62089d50726b6e58d') in 0.124094 seconds
-  Import took 0.145870 seconds .
+  Time since last request: 53.606712 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs
+  artifactKey: Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs using Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f76c9164522d15a50dcc937d6e6112') in 0.009204 seconds
+  Import took 0.020323 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.338398 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png
-  artifactKey: Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png using Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79852705ee58e30c9070c4b460e17203') in 0.050188 seconds
-  Import took 0.053055 seconds .
+  Time since last request: 3.272638 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs
+  artifactKey: Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs using Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f76c9164522d15a50dcc937d6e6112') in 0.015646 seconds
+  Import took 0.018120 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001390 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.958 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1685.
+Total: 1.784100 ms (FindLiveObjects: 0.157800 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.509100 ms  DeleteObjects: 0.075900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.411742 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - mort.png
-  artifactKey: Guid(bfd80b1662619464ba503410bf99ef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - mort.png using Guid(bfd80b1662619464ba503410bf99ef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a90784731d5cdad870bfac13b218ae2') in 0.043504 seconds
-  Import took 0.046191 seconds .
+  Time since last request: 25.103557 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs
+  artifactKey: Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs using Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8cc803ec714762366974294f9b2b62') in 0.013086 seconds
+  Import took 0.027522 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001361 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.217 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1688.
+Total: 1.880000 ms (FindLiveObjects: 0.193800 ms CreateObjectMapping: 0.047100 ms MarkObjects: 1.586100 ms  DeleteObjects: 0.051700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001510 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.026 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1691.
+Total: 1.636200 ms (FindLiveObjects: 0.147600 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.396200 ms  DeleteObjects: 0.050300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001263 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.033 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.8 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1694.
+Total: 1.769900 ms (FindLiveObjects: 0.215900 ms CreateObjectMapping: 0.040200 ms MarkObjects: 1.429000 ms  DeleteObjects: 0.083800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008042 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.009 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.8 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1697.
+Total: 2.430800 ms (FindLiveObjects: 0.153300 ms CreateObjectMapping: 0.055500 ms MarkObjects: 2.167300 ms  DeleteObjects: 0.053200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.171613 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - vita.png
-  artifactKey: Guid(ab52149209e331548996da61a4035f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - vita.png using Guid(ab52149209e331548996da61a4035f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55191a4ef47dbd710c66f8c71472776') in 0.050086 seconds
-  Import took 0.052699 seconds .
+  Time since last request: 96.458613 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs
+  artifactKey: Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs using Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcd0243bdaf474a2c2ec61fcf750807') in 0.012015 seconds
+  Import took 0.030511 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001245 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.8 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1700.
+Total: 2.155200 ms (FindLiveObjects: 0.244100 ms CreateObjectMapping: 0.108600 ms MarkObjects: 1.703600 ms  DeleteObjects: 0.097200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004945 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.8 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1703.
+Total: 1.737700 ms (FindLiveObjects: 0.148500 ms CreateObjectMapping: 0.041700 ms MarkObjects: 1.495400 ms  DeleteObjects: 0.050900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001371 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.016 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.8 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1706.
+Total: 1.996500 ms (FindLiveObjects: 0.182500 ms CreateObjectMapping: 0.037700 ms MarkObjects: 1.703500 ms  DeleteObjects: 0.071000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.702342 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites.asset
-  artifactKey: Guid(a5590f4ae3b5d7646be37d3cf34205f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites.asset using Guid(a5590f4ae3b5d7646be37d3cf34205f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589e985ab92b4b3e3427029540d7185b') in 0.016336 seconds
-  Import took 0.019827 seconds .
+  Time since last request: 81.578416 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs
+  artifactKey: Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs using Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a927f1178d00273a28cc8a5e7158d620') in 0.008984 seconds
+  Import took 0.011865 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001304 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.102 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.8 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1709.
+Total: 5.258400 ms (FindLiveObjects: 0.343700 ms CreateObjectMapping: 2.835200 ms MarkObjects: 1.981900 ms  DeleteObjects: 0.096300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.395775 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png
-  artifactKey: Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png using Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd720f7e9a703899d067f0d230ab09d6c') in 0.058169 seconds
-  Import took 0.072339 seconds .
+  Time since last request: 7633.569842 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs
+  artifactKey: Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/CustomPropertyDrawerGenerator/SimpleClass.cs using Guid(92ea2269053dc0146a53795a734bce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826e89543f04a85c6775a80cbfa74ef7') in 0.010507 seconds
+  Import took 0.071780 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.521591 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png
-  artifactKey: Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png using Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480748bdbefea39f10721650a9467a97') in 0.061403 seconds
-  Import took 0.064074 seconds .
+  Time since last request: 1317.597193 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor/CustomPropertyDrawerGenerator.cs
+  artifactKey: Guid(ae3817d954965ec44877dba8e9f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor/CustomPropertyDrawerGenerator.cs using Guid(ae3817d954965ec44877dba8e9f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd263fb60d26e1a8b3dbc4fbad2c82c83') in 0.014703 seconds
+  Import took 0.026910 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.351634 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png
-  artifactKey: Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png using Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c2c0129e58cbb9bb63e05b180c81b7') in 0.056456 seconds
-  Import took 0.064279 seconds .
+  Time since last request: 0.013509 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor/CustomPropertyDrawerGenerator.cs
+  artifactKey: Guid(ae3817d954965ec44877dba8e9f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor/CustomPropertyDrawerGenerator.cs using Guid(ae3817d954965ec44877dba8e9f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd263fb60d26e1a8b3dbc4fbad2c82c83') in 0.011309 seconds
+  Import took 0.014407 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005273 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.111 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.8 MB.
+System memory in use after: 59.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1712.
+Total: 2.857400 ms (FindLiveObjects: 0.190600 ms CreateObjectMapping: 0.088000 ms MarkObjects: 2.503300 ms  DeleteObjects: 0.074000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.532321 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png
-  artifactKey: Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png using Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705a96128d59508d5b8597d770e64e86') in 0.056450 seconds
-  Import took 0.059457 seconds .
+  Time since last request: 60.303840 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor/CustomPropertyDrawerGenerator.cs
+  artifactKey: Guid(ae3817d954965ec44877dba8e9f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Modules/Automatization/CustomPropertyDrawerGenerator/Editor/CustomPropertyDrawerGenerator.cs using Guid(ae3817d954965ec44877dba8e9f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6afc0f97aaa76d82d931777deb6a8230') in 0.009685 seconds
+  Import took 0.012098 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 61.379857 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png
-  artifactKey: Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png using Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e785a3aec9a39622c0e4427578c4c551') in 0.060153 seconds
-  Import took 0.062791 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001258 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.091 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1193 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.8 MB.
+System memory in use after: 59.9 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 5.601321 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png
-  artifactKey: Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png using Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2152109b0660a09ddf68ba808339c744') in 0.055840 seconds
-  Import took 0.058648 seconds .
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1715.
+Total: 1.654500 ms (FindLiveObjects: 0.154800 ms CreateObjectMapping: 0.041200 ms MarkObjects: 1.406800 ms  DeleteObjects: 0.050700 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 14.705553 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png
-  artifactKey: Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png using Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b61241faf3db005b2011c3b3078b710') in 0.058148 seconds
-  Import took 0.064779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.470868 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png
-  artifactKey: Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png using Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d23607dc70ffde408d0fc7df7d25990') in 0.059885 seconds
-  Import took 0.082276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.896332 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png
-  artifactKey: Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png using Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d5080a376007e5e86c1b47cdbe6b23') in 0.061183 seconds
-  Import took 0.072025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.299305 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png
-  artifactKey: Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - doux.png using Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb0e8ef9ad0473b13098841683f9282') in 0.059664 seconds
-  Import took 0.062702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.983459 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - mort.png
-  artifactKey: Guid(bfd80b1662619464ba503410bf99ef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - mort.png using Guid(bfd80b1662619464ba503410bf99ef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6beb59a69efa30e91c882f27e26ce1') in 0.050785 seconds
-  Import took 0.054410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - tard.png
-  artifactKey: Guid(9c3603d0147c069409618c676b3590c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - tard.png using Guid(9c3603d0147c069409618c676b3590c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b006cf3f488439ad58334641c4ec63da') in 0.052844 seconds
-  Import took 0.068952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - vita.png
-  artifactKey: Guid(ab52149209e331548996da61a4035f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - vita.png using Guid(ab52149209e331548996da61a4035f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b616c814f1ed107b530efcda3d7b0e83') in 0.055727 seconds
-  Import took 0.058710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.355385 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - mort.png
-  artifactKey: Guid(bfd80b1662619464ba503410bf99ef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - mort.png using Guid(bfd80b1662619464ba503410bf99ef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b067c3f319f1fec7102d05bfba15e3') in 0.049772 seconds
-  Import took 0.060432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - tard.png
-  artifactKey: Guid(9c3603d0147c069409618c676b3590c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - tard.png using Guid(9c3603d0147c069409618c676b3590c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f581168ff7fcc50c20c9b66033ecf1') in 0.044280 seconds
-  Import took 0.046697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - vita.png
-  artifactKey: Guid(ab52149209e331548996da61a4035f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites - vita.png using Guid(ab52149209e331548996da61a4035f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3767e3e7ef2c6095569d36080c9e34b') in 0.060712 seconds
-  Import took 0.062927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 414.619823 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/Dino1.png
-  artifactKey: Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/Dino1.png using Guid(835b9578e6195184b9e2b6abe1cab51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da68c3a89492cd0be7890ed22febf94') in 0.072536 seconds
-  Import took 0.075436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.828525 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/Dino2.png
-  artifactKey: Guid(bfd80b1662619464ba503410bf99ef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/Dino2.png using Guid(bfd80b1662619464ba503410bf99ef1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a71df27f6d19420c61e5402d875b586') in 0.075454 seconds
-  Import took 0.078242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.622481 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/Dino3.png
-  artifactKey: Guid(9c3603d0147c069409618c676b3590c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/Dino3.png using Guid(9c3603d0147c069409618c676b3590c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73792a72dfec28d28c1641e49f7a1a1') in 0.062656 seconds
-  Import took 0.065255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.256273 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/Dino4.png
-  artifactKey: Guid(ab52149209e331548996da61a4035f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/Dino4.png using Guid(ab52149209e331548996da61a4035f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd93d14206e4698f11ca272b39c46a8c') in 0.072603 seconds
-  Import took 0.075258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 113.621102 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/Animations/Dino1
-  artifactKey: Guid(31bf27b88aa56604db6a3ffd74172727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/Animations/Dino1 using Guid(31bf27b88aa56604db6a3ffd74172727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea9b2990435940278b7975907eddbaf') in 0.003984 seconds
-  Import took 0.021189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.504332 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/Animations/Dino1/Hurt.anim
-  artifactKey: Guid(162aafc6500062540b322304cb362f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/Animations/Dino1/Hurt.anim using Guid(162aafc6500062540b322304cb362f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44fb8007517631c795e0ebf644078307') in 0.010263 seconds
-  Import took 0.076946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 101.957972 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/credits.txt
-  artifactKey: Guid(91ff5bca238bbdc43ab8bc348f7d4ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/credits.txt using Guid(91ff5bca238bbdc43ab8bc348f7d4ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2123f15b94ce99aab991210902c5b9') in 0.012280 seconds
-  Import took 0.015061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 113.768741 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/Animations/Dino1/Idle.anim
-  artifactKey: Guid(2a92843df0c8e244a9ffa73e9bdf8a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/Animations/Dino1/Idle.anim using Guid(2a92843df0c8e244a9ffa73e9bdf8a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5021eb55123ceacd792c3ce8122b7e') in 0.014390 seconds
-  Import took 0.016753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.159527 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/Animations/Dino1/Run.anim
-  artifactKey: Guid(ac62c4ec701fed8429f7fc342510c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/Animations/Dino1/Run.anim using Guid(ac62c4ec701fed8429f7fc342510c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd652c10ddddfeb64508a77862faa2295') in 0.007033 seconds
-  Import took 0.016802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.040332 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/Animations/Dino1/Move.anim
-  artifactKey: Guid(354fb65959ef9a140beecc2a7e1d81c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/Animations/Dino1/Move.anim using Guid(354fb65959ef9a140beecc2a7e1d81c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36f0eeb93e7fbf765a3279a134a0f3a') in 0.006537 seconds
-  Import took 0.009837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.176618 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites.asset
-  artifactKey: Guid(a5590f4ae3b5d7646be37d3cf34205f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/SpriteSheets/DinoSprites.asset using Guid(a5590f4ae3b5d7646be37d3cf34205f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2533d04ef8a9c5397bc7d35777a923') in 0.008623 seconds
-  Import took 0.034391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.069291 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/Animations/Dino1/Kick.anim
-  artifactKey: Guid(2ba4ae1ef2dc0d64b84bb31d7afc360e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Demos/Automatization/AnimationGenerator/Animations/Dino1/Kick.anim using Guid(2ba4ae1ef2dc0d64b84bb31d7afc360e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcce653c6fda9cd6788a997a96786dd6') in 0.006152 seconds
-  Import took 0.008228 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

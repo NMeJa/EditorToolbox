@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace KevinCastejon.UnityTools
+namespace KevinCastejon.EditorToolbox
 {
     /// <summary>
     /// Prevents a property from being edited on the inspector.
