@@ -235,6 +235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89d7a897259dbb74087d6e6b356c4aa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _scene: TestHeaderPlusAttribute
 --- !u!4 &584010011
 Transform:
   m_ObjectHideFlags: 0

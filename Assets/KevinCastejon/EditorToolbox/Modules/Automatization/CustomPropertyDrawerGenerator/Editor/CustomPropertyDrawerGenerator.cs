@@ -56,28 +56,38 @@ namespace KevinCastejon.EditorToolbox
                     outfile.WriteLine($"[CustomPropertyDrawer(typeof({scriptClass.Name}))]");
                     outfile.WriteLine($"public class {scriptClass.Name}Drawer : PropertyDrawer");
                     outfile.WriteLine($"{{");
-                    outfile.WriteLine($"    private float _fieldsCount = {propsNames.Count + 1}f;");
                     outfile.WriteLine($"");
                     outfile.WriteLine($"    public override float GetPropertyHeight(SerializedProperty property, GUIContent label)");
                     outfile.WriteLine($"    {{");
                     outfile.WriteLine($"");
-                    outfile.WriteLine($"        return base.GetPropertyHeight(property, label) * _fieldsCount;");
+                    foreach (string propName in propsNames)
+                    {
+                        outfile.WriteLine($"        SerializedProperty {propName} = property.FindPropertyRelative(\"{propName}\");");
+                    }
+                    outfile.WriteLine($"        return 20f +");
+                    for (int i = 0; i < propsNames.Count; i++)
+                    {
+                        string propName = propsNames[i];
+                        outfile.WriteLine($"            EditorGUI.GetPropertyHeight({propName}, true) " + (i == propsNames.Count - 1 ? ";" : "+"));
+                    }
                     outfile.WriteLine($"");
                     outfile.WriteLine($"    }}");
                     outfile.WriteLine($"    public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)");
                     outfile.WriteLine($"    {{");
                     outfile.WriteLine($"");
+                    outfile.WriteLine($"        position = EditorGUI.IndentedRect(position);");
                     outfile.WriteLine($"        Rect rect = new Rect(position);");
-                    outfile.WriteLine($"        rect.height /= _fieldsCount;");
                     foreach (string propName in propsNames)
                     {
                         outfile.WriteLine($"        SerializedProperty {propName} = property.FindPropertyRelative(\"{propName}\");");
                     }
+                    outfile.WriteLine($"        rect.height = 20f;");
                     outfile.WriteLine($"        EditorGUI.LabelField(rect, label);");
                     outfile.WriteLine($"        rect.y += rect.height;");
                     outfile.WriteLine($"        EditorGUI.indentLevel++;");
                     foreach (string propName in propsNames)
                     {
+                        outfile.WriteLine($"        rect.height = EditorGUI.GetPropertyHeight({propName}, true);");
                         outfile.WriteLine($"        EditorGUI.PropertyField(rect, {propName});");
                         outfile.WriteLine($"        rect.y += rect.height;");
                     }
