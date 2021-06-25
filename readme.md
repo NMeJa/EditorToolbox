@@ -37,6 +37,9 @@ Hides the property in *PrefabMode*. The behaviour can be inverted with the 'inve
 - [**Tag**](/Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/Tag/readme.md)<BR/>
 Displays a dropdown list of available Tags (must be used with a 'string' typed property).
 
+- [**Scene**](/Assets/KevinCastejon/EditorToolbox/Documentation/Attributes/Scene/readme.md)<BR/>
+Displays a dropdown list of available build settings Scenes (must be used with a 'string' typed property).
+
 #### Automatization
 
 
