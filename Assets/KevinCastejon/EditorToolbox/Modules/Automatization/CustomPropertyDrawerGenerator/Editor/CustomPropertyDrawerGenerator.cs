@@ -42,7 +42,7 @@ namespace KevinCastejon.EditorToolbox
             {
                 AssetDatabase.CreateFolder("Assets" + path, "Editor");
             }
-            string copyPath = Application.dataPath + path + "/Editor/" + scriptClass.Name + "Editor.cs";
+            string copyPath = Application.dataPath + path + "/Editor/" + scriptClass.Name + "Drawer.cs";
             if (!File.Exists(copyPath))
             {
                 using (StreamWriter outfile =

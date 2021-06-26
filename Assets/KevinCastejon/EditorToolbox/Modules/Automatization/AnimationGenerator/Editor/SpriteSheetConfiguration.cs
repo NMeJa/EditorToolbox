@@ -6,7 +6,7 @@ namespace KevinCastejon.EditorToolbox
     /// <summary>
     /// Configuration asset for generating AnimationClip assets from a Texture2D spritesheet asset into AnimationGenerator window.
     /// </summary>
-    [CreateAssetMenu]
+    [CreateAssetMenu(menuName = "EditorTools/Create Spritesheet Configuration")]
     public class SpriteSheetConfiguration : ScriptableObject
     {
         public List<AnimationInfo> animations = new List<AnimationInfo>();
