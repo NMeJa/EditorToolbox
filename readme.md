@@ -5,6 +5,8 @@ This package contains several custom attributes, windows and components. They ar
 
 [Get the UnityPackage!](https://github.com/kevincastejon/EditorToolbox/releases/download/1.0.0/KevinCastejon.EditorToolbox.unitypackage)
 
+[Documentation](https://kevincastejon.github.io/EditorToolbox/)
+
 ## What's in the box?
 
 #### Custom Attributes
