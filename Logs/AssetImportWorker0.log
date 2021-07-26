@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'fr' Physical Memory: 16336 MB
+OS: 'Windows 10 Pro; OS build 19042.1110; Version 2009; 64bit' Language: 'fr' Physical Memory: 16336 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ E:/GitHub/EditorToolbox
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50670
+55615
 Successfully changed project path to: E:/GitHub/EditorToolbox
 E:/GitHub/EditorToolbox
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.92 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.02 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,59 +35,187 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002834 seconds.
+Registered in 0.002977 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 27.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.309 seconds
+- Completed reload, in  4.768 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001422 seconds.
+Registered in 0.001433 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.960 seconds
+- Completed reload, in  1.066 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1202 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1203 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 59.8 MB.
 System memory in use after: 59.9 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1653.
-Total: 1.916900 ms (FindLiveObjects: 0.139700 ms CreateObjectMapping: 0.040500 ms MarkObjects: 1.614600 ms  DeleteObjects: 0.121500 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1654.
+Total: 1.857100 ms (FindLiveObjects: 0.166700 ms CreateObjectMapping: 0.205200 ms MarkObjects: 1.398900 ms  DeleteObjects: 0.085300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/KevinCastejon/EditorToolbox/Modules/Attributes/SceneAttribute/Scripts/SceneAttribute.cs
-  artifactKey: Guid(b8969af3f3c8f50468f3b7e11e06d409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Modules/Attributes/SceneAttribute/Scripts/SceneAttribute.cs using Guid(b8969af3f3c8f50468f3b7e11e06d409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a7604b91203267f3d9ac7934de1316') in 0.039757 seconds
-  Import took 0.043261 seconds .
+  path: Assets/DemoTODELETE.cs
+  artifactKey: Guid(3563b1b165fb0024faebbd7b84dadae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoTODELETE.cs using Guid(3563b1b165fb0024faebbd7b84dadae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b7f479f57e137310e932b39873eeef') in 0.043604 seconds
+  Import took 0.046146 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002452 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1198 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.8 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1657.
+Total: 1.610500 ms (FindLiveObjects: 0.134500 ms CreateObjectMapping: 0.040500 ms MarkObjects: 1.339800 ms  DeleteObjects: 0.094800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001447 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1198 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.8 MB.
+System memory in use after: 59.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1660.
+Total: 2.372200 ms (FindLiveObjects: 0.163000 ms CreateObjectMapping: 0.048900 ms MarkObjects: 1.997400 ms  DeleteObjects: 0.161200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 83.059170 seconds.
-  path: Assets/KevinCastejon/EditorToolbox/Modules/Attributes/SceneAttribute/Editor/SceneDrawer.cs
-  artifactKey: Guid(e120f85783e4cac44b0b7c5895c18127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KevinCastejon/EditorToolbox/Modules/Attributes/SceneAttribute/Editor/SceneDrawer.cs using Guid(e120f85783e4cac44b0b7c5895c18127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc88bdaeb94283df9aef2fbf2b442066') in 0.011075 seconds
-  Import took 0.026745 seconds .
+  Time since last request: 3329.862086 seconds.
+  path: Assets/DemoTODELETE.cs
+  artifactKey: Guid(3563b1b165fb0024faebbd7b84dadae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoTODELETE.cs using Guid(3563b1b165fb0024faebbd7b84dadae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7240e2bdf722b44805c0ff1991d3062d') in 0.008594 seconds
+  Import took 0.010791 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001392 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1197 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.8 MB.
+System memory in use after: 59.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1662.
+Total: 2.046800 ms (FindLiveObjects: 0.150800 ms CreateObjectMapping: 0.043800 ms MarkObjects: 1.757800 ms  DeleteObjects: 0.093000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.548340 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/CustomEditorGenerator/readme.pdf
+  artifactKey: Guid(111f56ce33b1ab44295cb1bead3cc1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/CustomEditorGenerator/readme.pdf using Guid(111f56ce33b1ab44295cb1bead3cc1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08363f36a186b8982c43a6fb9d29f766') in 0.024983 seconds
+  Import took 0.027289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021166 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/CustomPropertyDrawerGenerator/readme.md
+  artifactKey: Guid(aee62445b60267d47b53e24a862848c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/CustomPropertyDrawerGenerator/readme.md using Guid(aee62445b60267d47b53e24a862848c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a2d7f810faa7ff6b77e463fc3d277c') in 0.010489 seconds
+  Import took 0.012550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.297174 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/TexturesMaxSizesSetter/readme.pdf
+  artifactKey: Guid(558aa35826f3e0145825e0cd9e94bf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/TexturesMaxSizesSetter/readme.pdf using Guid(558aa35826f3e0145825e0cd9e94bf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f0e2d7938ec0302aa86e00c37932e4') in 0.003029 seconds
+  Import took 0.005258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015152 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/CustomPropertyDrawerGenerator/readme.pdf
+  artifactKey: Guid(e71c710b482a5eb4ea18e53914960385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/CustomPropertyDrawerGenerator/readme.pdf using Guid(e71c710b482a5eb4ea18e53914960385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62bd5e7a11c93c0555a9b6dda79c7a8') in 0.002597 seconds
+  Import took 0.004900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.224494 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/TexturesMaxSizesSetter/readme.md
+  artifactKey: Guid(cf84c03efe054524682e0dba7e6e2b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/TexturesMaxSizesSetter/readme.md using Guid(cf84c03efe054524682e0dba7e6e2b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d03f5f52cac5aecfd7404bdda5440eb') in 0.003263 seconds
+  Import took 0.005743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.711580 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Modules/Attributes/LabelPlusAttribute/Scripts/LabelPlusAttribute.cs
+  artifactKey: Guid(bc00d731640a7ff448ca622ef32c73e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Modules/Attributes/LabelPlusAttribute/Scripts/LabelPlusAttribute.cs using Guid(bc00d731640a7ff448ca622ef32c73e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdcb71bb0fa997471981cc98dc2e6bf') in 0.041236 seconds
+  Import took 0.043270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.096552 seconds.
+  path: Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/CustomEditorGenerator/readme.md
+  artifactKey: Guid(256eaab29a68c504298168174690071c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KevinCastejon/EditorToolbox/Documentation/Automatization/CustomEditorGenerator/readme.md using Guid(256eaab29a68c504298168174690071c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8026a1a1c5f52ff173f12f10987eecb') in 0.006508 seconds
+  Import took 0.010532 seconds .
 

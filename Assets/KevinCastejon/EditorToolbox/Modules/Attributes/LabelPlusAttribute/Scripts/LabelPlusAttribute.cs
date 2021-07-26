@@ -3,7 +3,7 @@ using UnityEngine;
 namespace KevinCastejon.EditorToolbox
 {
     /// <summary>
-    /// Convenience color presets. It must be casted to 'int' when passed as a parameter in HeaderPlusAttribute constructor.
+    /// Convenience color presets. It must be casted to 'int' when passed as a parameter in LabelPlusAttribute constructor.
     /// </summary>
     public enum LabelPlusColor
     {
@@ -65,7 +65,7 @@ namespace KevinCastejon.EditorToolbox
         /// Custom inspector property label that allows using an icon, a custom label text and a custom label color.
         /// </summary>
         /// <param name="iconPath">The relative path (starting from 'Assets/') to the icon you want to display in front of the property.</param>
-        /// <param name="headerPlusColor">The custom label color as an four elements array : three colors (RGB) and one alpha.</param>
+        /// <param name="labelPlusColor">The custom label color as an four elements array : three colors (RGB) and one alpha.</param>
         public LabelPlusAttribute(string iconPath, float[] colorElements)
         {
             this.iconPath = iconPath;
@@ -76,19 +76,19 @@ namespace KevinCastejon.EditorToolbox
         /// Custom inspector property label that allows using an icon, a custom label text and a custom label color.
         /// </summary>
         /// <param name="iconPath">The relative path (starting from 'Assets/') to the icon you want to display in front of the property.</param>
-        /// <param name="headerPlusColor">The custom label color as an integer representing the HeaderPlusColor enum index of the desired color preset.</param>
-        public LabelPlusAttribute(string iconPath, int headerPlusColor)
+        /// <param name="labelPlusColor">The custom label color as an integer representing the LabelPlusColor enum index of the desired color preset.</param>
+        public LabelPlusAttribute(string iconPath, int labelPlusColor)
         {
             this.iconPath = iconPath;
             textIsNull = true;
-            color = _colorPresets[headerPlusColor];
+            color = _colorPresets[labelPlusColor];
         }
         /// <summary>
         /// Custom inspector property label that allows using an icon, a custom label text and a custom label color.
         /// </summary>
         /// <param name="iconPath">The relative path (starting from 'Assets/') to the icon you want to display in front of the property.</param>
         /// <param name="text">The custom label text.</param>
-        /// <param name="headerPlusColor">The custom label color as an four elements array : three colors (RGB) and one alpha.</param>
+        /// <param name="labelPlusColor">The custom label color as an four elements array : three colors (RGB) and one alpha.</param>
         public LabelPlusAttribute(string iconPath, string text, float[] colorElements)
         {
             this.iconPath = iconPath;
@@ -100,12 +100,12 @@ namespace KevinCastejon.EditorToolbox
         /// </summary>
         /// <param name="iconPath">The relative path (starting from 'Assets/') to the icon you want to display in front of the property.</param>
         /// <param name="text">The custom label text.</param>
-        /// <param name="headerPlusColor">The custom label color as an integer representing the HeaderPlusColor enum index of the desired color preset.</param>
-        public LabelPlusAttribute(string iconPath, string text, int headerPlusColor)
+        /// <param name="labelPlusColor">The custom label color as an integer representing the LabelPlusColor enum index of the desired color preset.</param>
+        public LabelPlusAttribute(string iconPath, string text, int labelPlusColor)
         {
             this.iconPath = iconPath;
             this.text = text;
-            color = _colorPresets[headerPlusColor];
+            color = _colorPresets[labelPlusColor];
         }
     }
 }

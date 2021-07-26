@@ -4,6 +4,6 @@ Generate a base **Editor** script for any **MonoBehaviour** or **ScriptableObjec
 
 ## How to use
 
-- Right-click on **MonoBehaviour** or **ScriptableObject** script on the **ProjectView** and browse to ***UnityTools > Generate Custom Editor***.
+- Right-click on **MonoBehaviour** or **ScriptableObject** script on the **ProjectView** and browse to ***EditorTools > Generate Custom Editor***.
 
 ![](img/CustomEditorGeneratorPreview.gif)
